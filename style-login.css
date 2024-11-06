@@ -1,0 +1,136 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 800px;
+    max-width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    border-radius: 8px;
+}
+
+.login-container {
+    display: flex;
+    width: 100%;
+}
+
+
+.login-form {
+    padding: 40px;
+    width: 50%;
+}
+
+.login-form h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.login-form h1 span {
+    color: #f0c30f;
+}
+
+.login-form p {
+    margin: 10px 0 20px;
+    color: #666;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.options label {
+    font-size: 14px;
+}
+
+.options a {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login-btn, .signup-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-btn {
+    background-color: #f0c30f;
+    color: #fff;
+}
+
+.signup-btn {
+    background-color: transparent;
+    color: #f0c30f;
+    border: 1px solid #f0c30f;
+}
+
+.social-login {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-login p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.social-link {
+    margin: 0 5px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-image {
+    width: 50%;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.login-image img {
+    width: 150px;
+}
